@@ -815,7 +815,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .profile-text p {
 	padding-top: 20px;
 	margin-bottom: 30px;
-	font-family: "NotoSansCJKkr-Regular";
 }
 
 .profile-text .profile-btn {
@@ -844,7 +843,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	max-width: 810px;
 	margin: 0 auto;
 	padding: 75px 0 50px;
-	/*font-family: "NotoSansCJKkr-Regular";*/
 }
 
 .about-text h2 {
@@ -858,7 +856,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 9px;
-	font-family: "NotoSansCJKkr-Regular";
 }
 
 .skill-warp {
@@ -1074,7 +1071,6 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 /*갤러리 이미지 제목*/
 .gallery-item .gi-hover h6 {
-	font-family: "NotoSansCJKkr-Regular";
 	font-weight: 500;
 	padding-top: 5px;
 	display: inline-block;
@@ -1295,6 +1291,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	color: #fff;
 }
 
+.pana-accordion-item .pa-text h2,.hero-item .pa-text h2,.about-text p,.profile-text p,.gallery-item .gi-hover h6,.blog-item .bi-text h3 a,.blog-item .bi-text h3 a,.single-blog-page h2,.single-blog-page p{
+	font-family: "NotoSansCJKkr-Regular";
+}
 /*-------------------
    Blog Single Page
  --------------------*/
